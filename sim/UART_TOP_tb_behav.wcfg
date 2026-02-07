@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="UART_TOP_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="UART_TOP_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="100000001fs"></ZoomEndTime>
+      <Cursor1Time time="100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="176"></NameColumnWidth>
+      <ValueColumnWidth column_width="103"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/UART_TOP_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_TOP_tb/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_TOP_tb/TX_start" type="logic">
+      <obj_property name="ElementShortName">TX_start</obj_property>
+      <obj_property name="ObjectShortName">TX_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_TOP_tb/TX" type="logic">
+      <obj_property name="ElementShortName">TX</obj_property>
+      <obj_property name="ObjectShortName">TX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_TOP_tb/TX_out2" type="logic">
+      <obj_property name="ElementShortName">TX_out2</obj_property>
+      <obj_property name="ObjectShortName">TX_out2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_TOP_tb/RX" type="logic">
+      <obj_property name="ElementShortName">RX</obj_property>
+      <obj_property name="ObjectShortName">RX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_TOP_tb/rec_valid" type="logic">
+      <obj_property name="ElementShortName">rec_valid</obj_property>
+      <obj_property name="ObjectShortName">rec_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_TOP_tb/to_send_data" type="array">
+      <obj_property name="ElementShortName">to_send_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">to_send_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_TOP_tb/result" type="array">
+      <obj_property name="ElementShortName">result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">result[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_TOP_tb/received_data" type="array">
+      <obj_property name="ElementShortName">received_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">received_data[7:0]</obj_property>
+   </wvobject>
+</wave_config>
