@@ -1,4 +1,5 @@
 UART FPGA Command Processor (VHDL)
+
 Projektbeschreibung
 Dieses Projekt implementiert ein vollständiges UART-basiertes Kommandoverarbeitungssystem auf FPGA-Basis. Über eine serielle UART-Schnittstelle werden Befehle gesendet, empfangen, dekodiert und durch eine ALU verarbeitet.
 
@@ -26,11 +27,14 @@ The design was fully simulated, implemented and verified with timing closure at 
 Architektur / Architecture
 Each module communicates synchronously using valid/ack handshake signals.
 
+
 Implementierte Module / Implemented Modules
 UART_TX
 FSM-basierter UART-Sender
 Parametrisierbare Baudrate
 Startbit, Datenbits, Stopbit
+
+
 UART_RX
 UART-Empfänger mit 16× Oversampling
 Metastabilitätsvermeidung durch Synchronisation
